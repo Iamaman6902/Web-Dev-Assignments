@@ -1,0 +1,698 @@
+body,
+.slider-container,
+.slider, .desk-container, #mobile-container {
+    margin: 0;
+}
+
+.scroll-1,
+.scroll-2,
+.scroll-3,
+.scroll-4,
+.scroll-5,
+.scroll-6,
+.scroll-7 {
+    height: 100vh;
+}
+
+
+
+@media (min-width: 550px) {
+
+
+    #mobile-container {
+        display: none;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+
+    .deskcontainer {
+        display: none;
+    }
+
+}
+
+.page-middle-circle {
+    position: fixed;
+    left: 30%;
+    top: 10%;
+    width: 350px;
+    height: 350px;
+    background-color: #6a16cf;
+    border-radius: 240px;
+}
+
+.carousle-circle {
+    position: fixed;
+    left: 30%;
+    top: 10%;
+    width: 350px;
+    height: 350px;
+    border-radius: 240px;
+}
+
+.page1 {
+    height: 100vh;
+    margin: 0;
+    display: none;
+    position: fixed;
+}
+
+.page1-left {
+    position: fixed;
+    left: 0;
+    width: 44.5%;
+    height: 100vh;
+    background-color: #6a16cf;
+}
+
+.page1-right {
+    position: fixed;
+    left: 44.5%;
+    width: 55.5%;
+    height: 100vh;
+    background-color: #eae8ec;
+}
+
+.downloads {
+    position: fixed;
+    left: 12%;
+    top: 26.25%;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 70px;
+}
+
+.appstore {
+    position: fixed;
+    left: 24%;
+    top: 38%;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'IBM Plex Sans';
+}
+
+.page2 {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    position: fixed;
+}
+
+.page2-left {
+    position: fixed;
+    left: 0;
+    width: 44.5%;
+    height: 100vh;
+    background-color: #3854e2;
+}
+
+.page2-right {
+    position: fixed;
+    left: 44.5%;
+    width: 55.5%;
+    height: 100vh;
+    background-color: #182c93;
+}
+
+
+
+.page3 {
+    height: 100vh;
+    margin: 0;
+    display: none;
+    position: fixed;
+}
+
+.page3-left {
+    position: fixed;
+    left: 0;
+    width: 44.5%;
+    height: 100vh;
+    background-color: #072239;
+}
+
+.page3-right {
+    position: fixed;
+    left: 44.5%;
+    width: 55.5%;
+    height: 100vh;
+    background-color: #1a2976;
+}
+
+.page4 {
+    height: 100vh;
+    margin: 0;
+    display: none;
+    position: fixed;
+}
+
+.page4-left {
+    position: fixed;
+    left: 0;
+    width: 44.5%;
+    height: 100vh;
+    background-color: #212746;
+}
+
+.page4-right {
+    position: fixed;
+    left: 44.5%;
+    width: 55.5%;
+    height: 100vh;
+    background-color: #0d1124;
+}
+
+.page5 {
+    height: 100vh;
+    margin: 0;
+    display: none;
+    position: fixed;
+}
+
+.page5-left {
+    position: fixed;
+    left: 0;
+    width: 44.5%;
+    height: 100vh;
+    background-color: #0d78f9;
+}
+
+.page5-right {
+    position: fixed;
+    left: 44.5%;
+    width: 55.5%;
+    height: 100vh;
+    background-color: #1cd3ef;
+}
+
+.page6 {
+    height: 100vh;
+    margin: 0;
+    display: none;
+    position: fixed;
+}
+
+.page6-left {
+    position: fixed;
+    left: 0;
+    width: 44.5%;
+    height: 100vh;
+    background-color: #2139b6;
+}
+
+.page6-right {
+    position: fixed;
+
+    left: 44.5%;
+    width: 55.5%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.page7 {
+    height: 100vh;
+    margin: 0;
+    display: none;
+    position: fixed;
+}
+
+.page7-left {
+    position: fixed;
+    left: 0;
+    width: 44.5%;
+    height: 100vh;
+    background-color: #19ab5c;
+}
+
+.page7-right {
+    position: fixed;
+    left: 44.5%;
+    width: 55.5%;
+    height: 100vh;
+    background-color: #28df8a;
+}
+
+.image-above-text {
+    position: absolute;
+    left: 10%;
+    top: 48.125%;
+
+}
+
+.company-name-text {
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    color: #fff;
+    width: 32%;
+    height: 6.25%;
+    font-family: 'IBM Plex Sans';
+    font-weight: 800;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.company-name-text1 {
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    color: #fff;
+    width: 49.6%;
+    height: 6.25%;
+    font-family: 'IBM Plex Sans';
+    font-weight: 800;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.company-desc-text {
+    position: absolute;
+    left: 10%;
+    top: 74.375%;
+    color: #fff;
+    opacity: 0.7;
+    font-family: 'IBM Plex Sans';
+    font-size: 19px;
+}
+
+.case-study-text {
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.cmg-soon-text {
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.skip-text {
+    position: fixed;
+    right: 60%;
+    bottom: 3.75%;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    opacity: 0.2;
+    font-size: 18px;
+}
+
+.msg-box {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 35px;
+    bottom: 35px;
+    margin: 2px;
+    align-items: center;
+}
+
+.image-above-text {
+    position: absolute;
+    left: 10%;
+    top: 48.125%;
+
+}
+
+.page1-img-1 {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.page1-img-2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+.page2-img-1 {
+    position: absolute;
+    top: 44%;
+    left: 24.22%;
+}
+
+.page2-img-2 {
+    position: absolute;
+    bottom: 36%;
+    right: 2.57%;
+}
+
+.page3-img-1 {
+    position: absolute;
+    left: 24.22%;
+    top: 23.37%;
+}
+
+.page3-img-2 {
+    position: absolute;
+    right: 2.59%;
+    bottom: 30.8%;
+}
+
+
+.page4-img-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.page4-img-2 {
+    position: absolute;
+    right: 10%;
+    top: -13%;
+}
+
+.page4-img-3 {
+    position: absolute;
+    bottom: -14%;
+    right: 0;
+}
+
+.page4-img-4 {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.page4-img-5 {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.page5-img-1 {
+    position: absolute;
+    top: 0;
+    left: 21.46%;
+}
+
+.page5-img-2 {
+    position: absolute;
+    top: 5%;
+    left: 48.26%;
+}
+
+.page5-img-3 {
+    position: absolute;
+    top: 30%;
+    left: 75.05%;
+}
+
+.page5-img-4 {
+    position: absolute;
+    left: 21.46%;
+    bottom: -12%;
+}
+
+.page5-img-5 {
+    position: absolute;
+    left: 48.26%;
+    bottom: -22.25%;
+}
+
+.page6-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page7-img-1 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.page7-img-2 {
+    position: absolute;
+    bottom: 0;
+    right: 26%;
+}
+
+/*Style Rules for Mobile View Port*/
+
+.slider-container {
+    position: absolute;
+    width: 100%;
+    overflow-x: scroll;
+    /* Use scroll for horizontal scrolling */
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    white-space: nowrap;
+    /* Prevent slides from wrapping */
+}
+
+.slider {
+    display: flex;
+    width: max-content;
+    /* Set the width based on the content */
+    transition: transform 0.3s ease-in-out;
+}
+
+/*
+.slide1, .slide2, .slide3 {
+    position: relative;
+    top: 0;
+    flex: 0 0 550px;
+    /* Each slide occupies the full width of the container 
+    height: 100vh;
+    /* Each slide covers the entire screen height 
+    box-sizing: border-box;
+    white-space: normal;
+    /* Allow content to wrap within each slide 
+}
+*/
+
+.slide1 {
+
+    flex: 0 0 550px;
+    height: 100vh;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+.slide2 {
+
+    flex: 0 0 550px;
+    height: 100vh;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+.slide3 {
+    flex: 0 0 550px;
+    height: 100vh;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+.slide4 {
+
+    flex: 0 0 550px;
+    height: 100vh;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+.slide5 {
+
+    flex: 0 0 550px;
+    height: 100vh;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+.slide6 {
+    flex: 0 0 550px;
+    height: 100vh;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+.slide7 {
+
+    flex: 0 0 550px;
+    height: 100vh;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+.upper {
+    position: absolute;
+    top: 0;
+    width: 550px;
+    height: 52vh;
+}
+
+.down {
+    position: absolute;
+    top: 52vh;
+    width: 550px;
+    height: 48vh;
+}
+
+.mobile-companyname-text {
+    position: absolute;
+    top: 24.98%;
+    left: 3%;
+    color: #fff;
+    height: 8.25%;
+    font-family: 'IBM Plex Sans';
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.description-mobile-text {
+    position: absolute;
+    left: 3%;
+    top: 40.182%;
+    color: #fff;
+    opacity: 0.8;
+    font-family: 'IBM Plex Sans';
+    font-size: 19px;
+}
+
+.case-study-mobile {
+    position: absolute;
+    left: 3%;
+    top: 60.5%;
+    color: #fff;
+    opacity: 0.8;
+    font-family: 'IBM Plex Sans';
+    font-size: 19px;
+}
+
+.cmg-soon-mobile-box {
+    position: absolute;
+    top: 57%;
+    background-color: #fff;
+    left: 28%;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'IBM Plex Sans';
+    font-size: 19px;
+}
+
+.watermark-image-box {
+    position: absolute;
+    left: 3%;
+    top: 45%;
+    border: 3px solid;
+    border-color: #6a16cf;
+    width: 304px;
+    height: 85px;
+    background-color: #fff;
+    border-radius: 13px;
+    overflow: hidden;
+
+}
+
+.mobile-page1-img-1 {
+    position: absolute;
+    left: 5.4%;
+    bottom: -14%;
+}
+
+.mobile-page1-img-2 {
+    position: absolute;
+    left: 44%;
+    bottom: -22%;
+}
+
+.mobile-page2-img-1 {
+    position: absolute;
+    left: 55.4%;
+    top: -10%;
+}
+
+.pizza-box-mobile {
+    position: absolute;
+    left: 0;
+    top: -6%;
+}
+
+.mobile-page4-img-1 {
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.mobile-page4-img-2 {
+    position: absolute;
+    left: 76%;
+    top: 52%;
+}
+
+.mobile-page4-img-3 {
+    position: absolute;
+    left: 85%;
+    top: 30%;
+}
+
+.mobile-page4-img-4 {
+    position: absolute;
+    left: 86%;
+    top: -20%;
+}
+
+.mobile-page4-img-5 {
+    position: absolute;
+    left: 48%;
+    top: -5%;
+}
+
+.mobile-page4-img-6 {
+    position: absolute;
+    left: 48%;
+    top: 80%;
+}
+
+.mobile-page5-img {
+    position: absolute;
+    left: 8%;
+    bottom: 45%;
+}
+
+.mobile-page6-img {
+    position: absolute;
+    left: 0;
+    bottom: -1.5%;
+}
+
+.mobile-page7-img {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.dot-container {
+    position: fixed;
+    left: 34%;
+    bottom: 3%;
+    width: 46%;
+    height: 15px;
+}
+
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6,
+.dot7 {
+    width: 4%;
+    height: 55%;
+    margin: 2%;
+    padding: 1px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.4;
+    display: inline-block;
+}
