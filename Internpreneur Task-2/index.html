@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        .slider-container,
+        .slider,
+        .desk-container,
+        #mobile-container {
+            margin: 0;
+        }
+
+
+
+        /*Style Rules for Mobile View Port*/
+
+        .slider-container {
+            position: absolute;
+            width: 100%;
+            overflow-x: scroll;
+            /* Use scroll for horizontal scrolling */
+            overflow-y: hidden;
+            /* Hide vertical scrollbar */
+            white-space: nowrap;
+            /* Prevent slides from wrapping */
+        }
+
+        .slider {
+            display: flex;
+            width: max-content;
+            /* Set the width based on the content */
+            transition: transform 0.3s ease-in-out;
+        }
+
+
+        /*
+.slide1, .slide2, .slide3 {
+    position: relative;
+    top: 0;
+    flex: 0 0 550px;
+    /* Each slide occupies the full width of the container 
+    height: 100vh;
+    /* Each slide covers the entire screen height 
+    box-sizing: border-box;
+    white-space: normal;
+    /* Allow content to wrap within each slide 
+}
+*/
+
+        .blank-space{
+            position: relative;
+            width: 100%;
+            height: 40px;
+        }
+
+        .slide1 {
+            margin:20px;
+            padding: 20px;
+            flex: 0 0 550px;
+            height: 100vh;
+            box-sizing: border-box;
+            white-space: normal;
+        }
+
+        .slide2 {
+            margin:20px;
+            padding: 20px;
+            flex: 0 0 550px;
+            height: 100vh;
+            box-sizing: border-box;
+            white-space: normal;
+        }
+
+        .slide3 {
+            margin:20px;
+            padding: 20px;
+            flex: 0 0 550px;
+            height: 100vh;
+            box-sizing: border-box;
+            white-space: normal;
+        }
+        .slide-4{
+            margin:20px;
+            padding: 20px;
+        }
+
+        .upper {
+            position: absolute;
+            top: 0;
+            width: 550px;
+            height: 52vh;
+        }
+
+        .down {
+            position: absolute;
+            top: 52vh;
+            width: 550px;
+            height: 48vh;
+        }
+
+        .mobile-companyname-text {
+            position: absolute;
+            top: 24.98%;
+            left: 3%;
+            color: #fff;
+            height: 8.25%;
+            font-family: 'IBM Plex Sans';
+            font-size: 39px;
+            font-weight: bold;
+        }
+
+        .description-mobile-text {
+            position: absolute;
+            left: 3%;
+            top: 40.182%;
+            color: #fff;
+            opacity: 0.8;
+            font-family: 'IBM Plex Sans';
+            font-size: 19px;
+        }
+
+        .case-study-mobile {
+            position: absolute;
+            left: 3%;
+            top: 60.5%;
+            color: #fff;
+            opacity: 0.8;
+            font-family: 'IBM Plex Sans';
+            font-size: 19px;
+        }
+
+        .cmg-soon-mobile-box {
+            position: absolute;
+            top: 57%;
+            background-color: #fff;
+            left: 28%;
+            padding: 10px;
+            border-radius: 20px;
+            font-family: 'IBM Plex Sans';
+            font-size: 19px;
+        }
+
+        .watermark-image-box {
+            position: absolute;
+            left: 3%;
+            top: 45%;
+            border: 3px solid;
+            border-color: #6a16cf;
+            width: 304px;
+            height: 85px;
+            background-color: #fff;
+            border-radius: 13px;
+            overflow: hidden;
+
+        }
+
+        .mobile-page1-img-1 {
+            position: absolute;
+            left: 5.4%;
+            bottom: -14%;
+        }
+
+        .mobile-page1-img-2 {
+            position: absolute;
+            left: 44%;
+            bottom: -22%;
+        }
+
+        .mobile-page2-img-1 {
+            position: absolute;
+            left: 55.4%;
+            top: -10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mobile-container">
+        <div class="blank-space"></div>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide1">
+                    <div class="upper" style="background-color: #eae8ec;">
+                        <div class="mobile-page1-img-1">
+                            <img src="images/page1/nexgtv-entertainment-mobile-app-development.png" width="250">
+                        </div>
+                        <div class="mobile-page1-img-2">
+                            <img src="images/page1/nexgtv-mobile-app-ui-design.png" width="250">
+                        </div>
+                    </div>
+                    <div class="down" style="background-color: #6a16cf;">
+                        <div class="mobile-companyname-text">
+                            ABC 123
+                        </div>
+                        <div class="description-mobile-text">This is sample text for ABC 123. This is sample<br /> text
+                            for
+                            ABC
+                            123</div>
+                        <div class="case-study-mobile">View Case Study ➡</div>
+                    </div>
+                    <div class="watermark-image-box">
+                        <img src="images/page1/world-communication-awards-for-best-digital-experience.png" width="300"
+                            height="85">
+                    </div>
+                </div>
+                <div class="slide2">
+                    <div class="upper" style="background-color: #182c93;">
+                        <div class="mobile-page1-img-1" style="left: 15%; bottom: -5;">
+                            <img src="images/page2/veme-blockchain-app-developed.png" width="200">
+                        </div>
+                        <div class="mobile-page2-img-1">
+                            <img src="images/page2/veme-app-ui-design.png" width="200">
+                        </div>
+                    </div>
+                    <div class="down" style="background-color: #b355bf;">
+                        <div class="mobile-companyname-text">
+                            ABC 1
+                        </div>
+                        <div class="description-mobile-text">This is sample text for ABC 1.</div>
+                        <div class="case-study-mobile">CASE STUDY - </div>
+                        <div class="cmg-soon-mobile-box" style="background-color: #cf2daa; color: #fff;">Coming Soon
+                        </div>
+                    </div>
+                </div>
+                <div class="slide3">
+                    <div class="upper" style="background-color: #1a2976;">
+                        <div class="mobile-page1-img-1" style="left: 5%; bottom: -48%;">
+                            <img src="images/page3/nasa-fitness-tracking-mobile-app.png" width="300 ">
+                        </div>
+                        <div class="mobile-page2-img-1">
+                            <img src="images/page3/measure-total-body-weight-through-fitness-app.png" width="200">
+                        </div>
+                    </div>
+                    <div class="down" style="background-color: #072239;">
+                        <div class="mobile-companyname-text">
+                            ABC 2
+                        </div>
+                        <div class="description-mobile-text">This is sample text for ABC 2.</div>
+                        <div class="case-study-mobile">CASE STUDY - </div>
+                        <div class="cmg-soon-mobile-box">Coming Soon</div>
+                    </div>
+                </div>
+                <div class="slide-4"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
